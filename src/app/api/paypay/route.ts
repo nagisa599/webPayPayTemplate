@@ -23,7 +23,7 @@ export async function POST(request: Request) {
     codeType: "ORDER_QR",
     orderDescription: orderDescription,
     isAuthorization: false,
-    redirectUrl: `http://localhost:3002/${merchantPaymentId}`, // Redirect URL
+    redirectUrl: `http://localhost:3000/${merchantPaymentId}`, // Redirect URL
     redirectType: "WEB_LINK",
   };
 

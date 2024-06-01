@@ -1,4 +1,3 @@
-import axios from "axios";
 import PAYPAY from "@paypayopa/paypayopa-sdk-node"; // Importing PayPay SDK
 PAYPAY.Configure({
   clientId: process.env.PAYPAY_API_KEY || "",
